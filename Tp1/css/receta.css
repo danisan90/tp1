@@ -1,3 +1,206 @@
+@charset "UTF-8";
+body {
+  font-family: "IBM Plex Mono", monospace;
+  margin: 0;
+}
+body .banner {
+  width: 100%;
+}
+body .banner img {
+  width: 100%;
+}
+body .navigation {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+body .navigation a {
+  color: black;
+  text-decoration: none;
+}
+body .navigation .single-post {
+  color: #666666;
+}
 
+main {
+  width: 50%;
+  margin: auto;
+}
+main .share {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 50px;
+}
+main .share .facebook {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #3a5a95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .share .facebook a {
+  color: white;
+}
+main .share .twitter {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #59adeb;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .share .twitter a {
+  color: white;
+}
+main .share .google {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #db4c3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .share .google a {
+  color: white;
+}
+main .share .instagram {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #8e6249;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .share .instagram a {
+  color: white;
+}
+main .share .pinterest {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .share .pinterest a {
+  font-size: 30px;
+  color: #c8222e;
+}
+main .main-img {
+  display: flex;
+  margin-top: 60px;
+}
+main .main-img .img-container {
+  box-sizing: border-box;
+  border-radius: 40px;
+  overflow: hidden;
+}
+main article {
+  color: #808080;
+  width: 90%;
+  margin-left: 80px;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+main .post-details {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main .post {
+  display: flex;
+  flex-direction: column;
+}
+main .post .post-title {
+  margin-left: 30px;
+  color: black;
+}
+main .post .description {
+  margin-top: 0;
+}
+main .post .quote-container {
+  border-left: 1px solid #fa7855;
+  color: black;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+main .post .quote-container .quote {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+main .post .quote-container .quote-author {
+  color: #808080;
+}
+main .post .ingredients {
+  margin-top: 30px;
+  list-style: none;
+  line-height: 30px;
+  padding-left: 10px;
+}
+main .post .ingredients li::before {
+  content: "•";
+  color: #fa7855;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+  body .navigation {
+    margin: 10px;
+    line-height: 50px;
+  }
+  body main {
+    width: 90%;
+    margin: auto;
+  }
+  body main .main-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  body main .main-img .share {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  body main .main-img .img-container {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+  body main .main-img .img-container img {
+    width: 100%;
+  }
+  body article {
+    width: 95%;
+    margin: auto;
+  }
+  body article .post-details {
+    font-size: 14px;
+  }
+}
 
 /*# sourceMappingURL=receta.css.map */
