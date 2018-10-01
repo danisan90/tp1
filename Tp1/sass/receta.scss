@@ -117,6 +117,10 @@ main {
       box-sizing: border-box;
       border-radius: 40px;
       overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+      }
     }
   }
   .post-details{

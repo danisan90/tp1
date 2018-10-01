@@ -116,6 +116,10 @@ main article .img-container {
   border-radius: 40px;
   overflow: hidden;
 }
+main article .img-container img {
+  width: 100%;
+  height: auto;
+}
 main .post-details {
   margin-top: 30px;
   display: flex;
