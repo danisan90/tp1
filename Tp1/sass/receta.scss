@@ -25,14 +25,15 @@ body{
 
 main {
   width: 50%;
-  margin:auto;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
   .share{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     font-size: 25px;
     margin-top: 80px;
-    margin-bottom: 80px;
     margin-right: 50px;
     .facebook{
       width: 30px;
@@ -42,6 +43,7 @@ main {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 20px;
       a{
         color:white;
       }
@@ -55,6 +57,7 @@ main {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 20px;
       a{
         color:white;
       }
@@ -68,6 +71,7 @@ main {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 20px;
       a{
         color:white;
       }
@@ -81,6 +85,8 @@ main {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 20px;
+
       a{
         color:white;
       }
@@ -94,28 +100,24 @@ main {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 20px;
       a{
       font-size: 30px;
       color: #c8222e;
       }
     }
   }
-  .main-img {
+
+  article {
+    color: $gris;
+    width: 90%;
     display: flex;
-    margin-top: 60px;
+    flex-direction: column;
     .img-container {
       box-sizing: border-box;
       border-radius: 40px;
       overflow: hidden;
     }
-  }
-  article {
-    color: $gris;
-    width: 90%;
-    margin-left: 80px;
-    margin-right: 0;
-    display: flex;
-    flex-direction: column;
   }
   .post-details{
     margin-top: 30px;
@@ -157,9 +159,9 @@ main {
         width: 1em;
         margin-left: -1em;
       }
-      }
     }
   }
+}
 
 @media (max-width: 800px) {
 body{
@@ -169,19 +171,17 @@ body{
     line-height: 50px;
   }
   main {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    .main-img{
-      display: flex;
-      flex-direction: column;
-      margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
       .share{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: auto;
         width: 80%;
-        margin-top: 0;
         margin-bottom: 20px;
       }
       .img-container {
@@ -196,11 +196,10 @@ body{
     }
   }
   article {
-    width: 95%;
+    width: 90%;
     margin:auto;
     .post-details{
       font-size: 14px;
     }
   }
-}
 }
