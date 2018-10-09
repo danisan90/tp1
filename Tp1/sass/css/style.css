@@ -1,0 +1,71 @@
+.video p {
+  margin-left: 5%;
+  font-family: "IBM Plex Mono", monospace;
+  color: #666666;
+  font-size: 10px;
+  margin-bottom: 5%;
+}
+
+iframe {
+  width: 60%;
+  height: 400px;
+  margin-left: 5%;
+}
+
+.linea {
+  border-bottom: #666666 solid 1px;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.nota1 {
+  width: 60%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: flex;
+  font-family: "IBM Plex Mono", monospace;
+  color: #666666;
+}
+.nota1 .img1 {
+  width: 40%;
+}
+.nota1 .img1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.uno {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+
+.dos {
+  margin-left: 5%;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
+footer ul {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+footer ul a {
+  color: #666666;
+  text-decoration: none;
+}
+footer .line {
+  border-bottom: #666666 solid 1px;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+$gris-menu: #666666; //gris oscuro
+$gris: #808080; //gris claro
+$fuente: 'IBM Plex Mono', monospace; //fuente section
+$rosa: #f29fc5; // rosa botón
+
+.video{
+    p{
+    margin-left: 5%;
+    font-family: $fuente;
+    color: $gris-menu;
+    font-size: 10px;
+    margin-bottom: 5%;
+   }
+}
+iframe{
+    width: 60%;
+    height: 400px;
+    margin-left: 5%;
+}
+
+.linea{
+    border-bottom: $gris-menu solid 1px;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.nota1 {
+    width: 60%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    font-family: $fuente;
+    color: $gris-menu;
+    .img1 {
+        width: 40%;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10%;
+        }
+    }
+}
+
+.uno {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.dos {
+    margin-left: 5%;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    ul {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        a {
+            color: $gris-menu;
+            text-decoration: none;
+        }
+    }
+    .line {
+        border-bottom: $gris-menu solid 1px;
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+    }
+}
+
