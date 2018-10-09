@@ -4,16 +4,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/receta.css">
   <title>Mi Blog de Cocina - Receta</title>
 </head>
 
 <body>
-  <header>
+    <header>
+          <div class="header">
+              Mi Blog de cocina
+          </div>
+          <nav class="navbar">
+                <ul class="list-container">
+                  <li class="list-item">
+                      <a href="index.html" class='link home'>HOME</a>
+                </li>
+                  <li class="list-item dropdown-container">
+                        <a href="#" class='link platos'>PLATOS
+                            <i class="fa fa-caret-down"></i>
+                          </a>
+                              <ul class="dropdown-content">
+                                  <li class="dropdown-item"><a href="#">Ensalada</a></li>
+                                  <li class="dropdown-item"><a href="#">Carne</a></li>
+                                  <li class="dropdown-item"><a href="#">Helado</a></li>
+                              </ul>
+                  </li>
+                  <li class="list-item">
+                      <a href="#" class='link sobre-mi'>SOBRE MI</a>
+                  </li>
+                  <li class="list-item">
+                      <a href="#" class='link contacto'>CONTACTO</a>
+                  </li>
+              </ul>
+      </nav>
+      <nav class="navbar-mobile">
+          <ul class="list-container">
+            <li class="list-item dropdown-container">
+                  <a href="#" class='mobile-menu'>
+                    <i class="fas fa-bars"></i> MENU
+                  </a>
+                        <ul class="dropdown-content">
+                            <li class="dropdown-item"><a href="#">HOME</a></li>
+                            <li class="dropdown-item"><a href="#">PLATOS</a></li>
+                            <li class="dropdown-item"><a href="#">SOBRE MI</a></li>
+                            <li class="dropdown-item"><a href="#">CONTACTO</a></li>
+                        </ul>
+            </li>
+          </ul>
+      </nav>
     <div class="banner">
       <img src="../img/banner.jpg" alt="">
     </div>

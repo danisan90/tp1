@@ -1,9 +1,9 @@
 @import 'colores.scss';
+@import 'header.scss';
 
-
-body{
+body {
   font-family: 'IBM Plex Mono', monospace;
-  margin:0;
+  margin: 0;
   .banner{
     width: 100%;
     img{
@@ -169,6 +169,8 @@ main {
 }
 
 @media (max-width: 800px) {
+ 
+
 body{
   margin: 0;
   .navigation{
