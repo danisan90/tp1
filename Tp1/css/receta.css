@@ -9,7 +9,7 @@
 .navbar {
   font-family: "IBM Plex Mono", monospace;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end;
   margin-top: 10px;
 }
@@ -101,7 +101,8 @@
   }
 
   .list-container {
-    padding: 0;
+    padding-left: 0px;
+    padding-right: 0px;
     margin: 0;
     justify-content: center;
     align-items: center;
@@ -131,6 +132,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    left: -35px;
     list-style: none;
     background-color: #fa7855;
     text-align: center;
