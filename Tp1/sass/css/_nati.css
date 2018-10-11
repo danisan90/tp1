@@ -1,0 +1,32 @@
+.bio-container {
+  width: 305px;
+  height: 345px;
+  justify-content: center;
+}
+
+.label {
+  background: #f29fc5;
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+}
+
+img {
+  width: 65%;
+}
+img p {
+  width: 100px;
+}
+
+h2, p, .img-blog {
+  font-family: "IBM Plex Mono", monospace;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  color: #666666;
+  font-size: 11px;
+}
+
+/*# sourceMappingURL=_nati.css.map */
