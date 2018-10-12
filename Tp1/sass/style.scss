@@ -201,21 +201,21 @@ footer {
         width: auto;
         margin: auto;
         flex-direction: column;
-        .images {
-            width: 100%;
-            margin-bottom: 20px;
-            flex-direction: column;
-        }
-        .btn {
-            top: 40%;
-            left: 25%;
-        }
-        .btn1{
-            top: 40%;
-            left: 0%;
-            transform: none;
-            background: none;
-        }
+    }
+    .images {
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .btn {
+     top: 40%;
+    left: 25%;
+    }
+    .btn1{
+     top: 40%;
+     left: 0%;
+    transform: none;
+    background: none;
     }
     .bioo{
         display: flex;
