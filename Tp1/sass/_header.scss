@@ -1,3 +1,4 @@
+@import 'footer.scss';
 .header {
     text-align: center;
     font-family: "Indie Flower", cursive;
@@ -196,5 +197,11 @@
         color: white;
         text-decoration: none;
         list-style-type: none;
+    }
+    .fmobile{
+      display: none;
+    }
+    .overlay{
+      display: none;
     }
 }

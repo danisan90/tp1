@@ -1,3 +1,26 @@
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+footer ul {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+footer ul a {
+  color: #666666;
+  text-decoration: none;
+}
+footer .line {
+  border-bottom: #666666 solid 1px;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
 .header {
   text-align: center;
   font-family: "Indie Flower", cursive;
@@ -190,6 +213,36 @@
     text-decoration: none;
     list-style-type: none;
   }
+
+  .fmobile {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+}
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+footer ul {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+footer ul a {
+  color: #666666;
+  text-decoration: none;
+}
+footer .line {
+  border-bottom: #666666 solid 1px;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

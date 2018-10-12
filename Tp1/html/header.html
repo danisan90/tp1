@@ -12,20 +12,17 @@
 </head>
 
 <body>
-  <header>
-    <div class="header">
-        Mi Blog de cocina
-    </div>
+    <header>
+        <div class="header">
+            Mi Blog de cocina
+        </div>
     <nav class="navbar">
-          <ul class="list-container">
+        <ul class="list-container">
             <li class="list-item">
-              <a href="#" class='link active'>Menu</a>
+                <a href="index.html" class='link home'>HOME</a>
             </li>
-            <li class="list-item">
-                <a href="#" class='link'>HOME</a>
-          </li>
             <li class="list-item dropdown-container">
-                  <a href="#" class='link'>PLATOS
+                  <a href="#" class='link platos'>PLATOS
                       <i class="fa fa-caret-down"></i>
                     </a>
                         <ul class="dropdown-content">
@@ -35,13 +32,28 @@
                         </ul>
             </li>
             <li class="list-item">
-                <a href="#" class='link'>SOBRE MI</a>
+                <a href="#" class='link sobre-mi'>SOBRE MI</a>
             </li>
             <li class="list-item">
-                <a href="#" class='link'>CONTACTO</a>
+                <a href="#" class='link contacto'>CONTACTO</a>
             </li>
         </ul>
-</nav>
+    </nav>
+    <nav class="navbar-mobile">
+        <ul class="list-container">
+            <li class="list-item dropdown-container">
+                <a href="#" class='mobile-menu'>
+                <i class="fas fa-bars"></i> MENU
+                </a>
+                <ul class="dropdown-content">
+                    <li class="dropdown-item"><a href="#">HOME</a></li>
+                    <li class="dropdown-item"><a href="#">PLATOS</a></li>
+                    <li class="dropdown-item"><a href="#">SOBRE MI</a></li>
+                    <li class="dropdown-item"><a href="#">CONTACTO</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
   </header>
   <main>
       <div class="row no-padding">
@@ -53,21 +65,46 @@
                "Los mejores tacos del pais en pocos pasos."</div>
                </div>
           </div>
-          <div class="col-md-3 screens">
+          <div class="col-md-3 screens fmobile">
               <img class="img" src="../img/img-2.jpg" alt="Salmon">
           </div>
-          <div class="col-md-3 screens">
+          <div class="col-md-3 screens fmobile">
               <img class="img" src="../img/img-3.jpg" alt="Yogurt">
           </div>
-          <div class="col-md-3 screens">
+          <div class="col-md-3 screens fmobile">
               <img class="img" src="../img/img-4.jpg" alt="Buschetas">
           </div>
       </div>
   </main>
-
   <footer>
-
-  </footer>
+      <ul>
+          <li>
+              <i class="fab fa-facebook-f"></i>
+              <a href="https://www.facebook.com/">FACEBOOK</a>
+          </li>
+          <li>
+              <i class="fab fa-twitter"></i>
+              <a href="https://twitter.com/?lang=es">TWITTER</a>
+          </li>
+          <li>
+              <i class="fab fa-google-plus-g"></i>
+              <a href="https://plus.google.com/discover">GOOGLE +</a>
+          </li>
+          <li>
+              <i class="fab fa-linkedin"></i>
+              <a href="https://ar.linkedin.com/">LINKEDIN</a>
+          </li>
+          <li>
+              <i class="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/?hl=es-la">INSTAGRAM</a>
+          </li>
+          <li>
+              <i class="fab fa-youtube"></i>
+              <a href="https://www.youtube.com/?gl=AR">YOUTUBE</a>
+          </li>
+      </ul>
+      <div class="line"></div>
+    </footer>
 </body>
 
 </html>
