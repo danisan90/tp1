@@ -5,6 +5,7 @@
     color: $naranja;
     font-size: 46px;
   }
+  //-------MENU-------------
   .navbar{
     font-family: "IBM Plex Mono", monospace;
     display: flex;
@@ -41,7 +42,7 @@
 
 .dropdown-container{
   position: relative;
-  .list-item {
+  .dropdown-item {
     &:first-child {
         display: inline-block;
     }
@@ -59,6 +60,7 @@
     color: $gris-menu;
     background-color: rgb(244, 244, 244);
     text-align: left;
+    z-index: 100;
   }
   &:hover .dropdown-content{
     display: block;
@@ -74,11 +76,22 @@
 .navbar-mobile{
   display: none;
 }
+//--------------IMAGENES
 .row{
   display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
+}
+.col-md-3.screens {
+    padding: 0;
+    margin: 0 15px;
+  }
+.col-md-3.screens:first-child {
+    margin-left: 0;
+}
+.col-md-3.screens:last-child {
+    margin-right: 0;
 }
 .img{
   width: 100%;
@@ -140,10 +153,7 @@
         color: black;
         text-decoration: none;
         }
-
-
     }
-
     .list-container {
         padding-left: 0px;
         padding-right: 0px;

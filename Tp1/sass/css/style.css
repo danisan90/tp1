@@ -65,7 +65,7 @@ footer .line {
 .dropdown-container {
   position: relative;
 }
-.dropdown-container .list-item:first-child {
+.dropdown-container .dropdown-item:first-child {
   display: inline-block;
 }
 .dropdown-container .dropdown-content {
@@ -79,6 +79,7 @@ footer .line {
   color: #666666;
   background-color: #f4f4f4;
   text-align: left;
+  z-index: 100;
 }
 .dropdown-container:hover .dropdown-content {
   display: block;
@@ -100,6 +101,19 @@ footer .line {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.col-md-3.screens {
+  padding: 0;
+  margin: 0 15px;
+}
+
+.col-md-3.screens:first-child {
+  margin-left: 0;
+}
+
+.col-md-3.screens:last-child {
+  margin-right: 0;
 }
 
 .img {
