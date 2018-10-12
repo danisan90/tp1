@@ -3,9 +3,14 @@ $gris: #808080; //gris claro
 $fuente: 'IBM Plex Mono', monospace; //fuente section
 $rosa: #f29fc5; // rosa botón
 
+button {
+    border-width: 2px;
+}
 .container{
+    margin-top: 2%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 2%;
  }
  
  
@@ -69,7 +74,6 @@ $rosa: #f29fc5; // rosa botón
     margin-left: 2%;
     div {
         width: 50%;
-        height: 200px;
         margin: auto;
         img {
             width: 100%;
@@ -194,7 +198,7 @@ footer {
  }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .container {
         display: flex;
         align-items: center;
@@ -250,6 +254,7 @@ footer {
         }
         button{
             margin-left: 25%;
+            margin-bottom: 15%;
         }
     }
     .nota2{

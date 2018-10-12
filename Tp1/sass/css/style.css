@@ -259,4 +259,293 @@ footer .line {
   padding: 15px;
 }
 
+button {
+  border-width: 2px;
+}
+
+.container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.images {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.images .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 15px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.images .btn:hover {
+  background-color: #fa7855;
+  color: black;
+}
+
+.padre {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.video {
+  width: 60%;
+  height: auto;
+}
+.video iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  height: auto;
+  font-family: "IBM Plex Mono", monospace;
+  margin-left: 2%;
+}
+.bio div {
+  width: 50%;
+  margin: auto;
+}
+.bio div img {
+  width: 100%;
+  height: auto;
+}
+.bio .n {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.bio .pink {
+  background-color: #f29fc5;
+  text-align: center;
+  margin-top: 0%;
+}
+.bio p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.april {
+  font-family: "IBM Plex Mono", monospace;
+  width: 90%;
+  margin: auto;
+  font-size: 10px;
+}
+
+.linea {
+  border-bottom: #666666 solid 1px;
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.nota1 {
+  width: 60%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: flex;
+  font-family: "IBM Plex Mono", monospace;
+  color: #666666;
+}
+.nota1 .img1 {
+  width: 40%;
+}
+.nota1 .img1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.nota2 {
+  width: 60%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: flex;
+  font-family: "IBM Plex Mono", monospace;
+  color: #666666;
+}
+.nota2 .img2 {
+  width: 40%;
+}
+.nota2 .img2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.uno {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+
+.dos {
+  margin-left: 5%;
+}
+
+h3 {
+  margin: 0;
+  color: black;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+button {
+  display: block;
+  color: black;
+  padding: 8px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #f29fc5;
+  margin-top: 5%;
+}
+
+.bioo {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+footer ul {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #666666;
+  text-decoration: none;
+}
+footer .line {
+  border-bottom: #666666 solid 1px;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+.icon-arrow {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .images {
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .btn {
+    top: 40%;
+    left: 25%;
+  }
+
+  .btn1 {
+    top: 40%;
+    left: 0%;
+    transform: none;
+    background: none;
+  }
+
+  .bioo {
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+  .bioo .bio {
+    width: 100%;
+  }
+
+  .padre {
+    display: none;
+  }
+
+  .april {
+    display: none;
+  }
+
+  .linea {
+    display: none;
+  }
+
+  .nota1 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .nota1 .img1 {
+    display: none;
+  }
+  .nota1 .uno {
+    justify-content: space-around;
+  }
+  .nota1 h3 {
+    text-align: center;
+  }
+  .nota1 button {
+    margin-left: 25%;
+    margin-bottom: 15%;
+  }
+
+  .nota2 {
+    display: none;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  .icon-arrow {
+    color: #fa7855;
+    bottom: 15px;
+    display: inline-block;
+  }
+  .icon-arrow .fa-arrow-circle-up {
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    color: orange;
+    margin-left: 40%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
