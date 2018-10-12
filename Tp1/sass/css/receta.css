@@ -48,10 +48,8 @@
 }
 .dropdown-container .dropdown-content {
   display: none;
-  width: 100%;
   position: absolute;
   top: 25px;
-  left: 0;
   list-style: none;
   padding-left: 25px;
   padding-right: 25px;
@@ -65,7 +63,6 @@
 }
 
 .dropdown-item {
-  width: 100%;
   color: #666666;
   padding: 5px;
   text-decoration: none;
@@ -152,6 +149,29 @@
     list-style-type: none;
   }
 }
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+footer ul {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+footer ul a {
+  color: #666666;
+  text-decoration: none;
+}
+footer .line {
+  border-bottom: #666666 solid 1px;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
 body {
   font-family: "IBM Plex Mono", monospace;
   margin: 0;

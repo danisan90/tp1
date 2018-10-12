@@ -1,0 +1,22 @@
+footer {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    ul {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        a {
+            color: $gris-menu;
+            text-decoration: none;
+        }
+    }
+    .line {
+        border-bottom: $gris-menu solid 1px;
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+    }
+}
