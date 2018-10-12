@@ -165,6 +165,9 @@ button {
     margin-top: 5%;
 }
 
+.bioo {
+    display: none;
+}
 
 footer {
     width: 100%;
@@ -176,10 +179,8 @@ footer {
         display: flex;
         justify-content: space-between;
         list-style-type: none;
-        a {
-            color: $gris-menu;
-            text-decoration: none;
-        }
+        color: $gris-menu;
+        text-decoration: none;
     }
     .line {
         border-bottom: $gris-menu solid 1px;
@@ -188,33 +189,88 @@ footer {
         padding: 15px;
     }
 }
+.icon-arrow {
+    display: none;
+ }
 
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .container {
         display: flex;
         align-items: center;
         width: auto;
         margin: auto;
         flex-direction: column;
- 
+        .images {
+            width: 100%;
+            margin-bottom: 20px;
+            flex-direction: column;
+        }
+        .btn {
+            top: 40%;
+            left: 25%;
+        }
+        .btn1{
+            top: 40%;
+            left: 0%;
+            transform: none;
+            background: none;
+        }
     }
- 
-    .images {
-        width: 100%;
-        margin-bottom: 20px;
-        flex-direction: column;
+    .bioo{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        .bio{
+            width: 100%;
+        }
     }
- 
-    .btn {
-        top: 40%;
-        left: 25%;
+    .padre {
+        display:none;
     }
- 
-    .btn1{
-        top: 40%;
-        left: 0%;
-        transform: none;
-        background: none;
+    .april {
+        display: none;
+    }
+    .linea{
+        display: none;
+    }
+    .nota1 {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        .img1{
+            display: none;
+        }
+        .uno{
+            justify-content: space-around;
+        }
+        h3{
+            text-align: center;
+        }
+        button{
+            margin-left: 25%;
+        }
+    }
+    .nota2{
+        display: none;
+    }
+    footer {
+        span{
+            display: none;
+        }
+    }
+    .icon-arrow {
+        color: #fa7855;
+        bottom: 15px;
+        display: inline-block;
+        .fa-arrow-circle-up {
+            font-size: 40px;
+            position: absolute;
+            z-index: 1;
+            text-decoration: none;
+            color: orange;
+            margin-left: 40%;
+        }
     }
 }

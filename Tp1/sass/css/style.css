@@ -162,6 +162,10 @@ button {
   margin-top: 5%;
 }
 
+.bioo {
+  display: none;
+}
+
 footer {
   width: 100%;
   height: auto;
@@ -173,8 +177,6 @@ footer ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-}
-footer ul a {
   color: #666666;
   text-decoration: none;
 }
@@ -185,7 +187,11 @@ footer .line {
   padding: 15px;
 }
 
-@media (max-width: 800px) {
+.icon-arrow {
+  display: none;
+}
+
+@media (max-width: 600px) {
   .container {
     display: flex;
     align-items: center;
@@ -193,23 +199,82 @@ footer .line {
     margin: auto;
     flex-direction: column;
   }
-
-  .images {
+  .container .images {
     width: 100%;
     margin-bottom: 20px;
     flex-direction: column;
   }
-
-  .btn {
+  .container .btn {
     top: 40%;
     left: 25%;
   }
-
-  .btn1 {
+  .container .btn1 {
     top: 40%;
     left: 0%;
     transform: none;
     background: none;
+  }
+
+  .bioo {
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+  .bioo .bio {
+    width: 100%;
+  }
+
+  .padre {
+    display: none;
+  }
+
+  .april {
+    display: none;
+  }
+
+  .linea {
+    display: none;
+  }
+
+  .nota1 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .nota1 .img1 {
+    display: none;
+  }
+  .nota1 .uno {
+    justify-content: space-around;
+  }
+  .nota1 h3 {
+    text-align: center;
+  }
+  .nota1 button {
+    margin-left: 25%;
+  }
+
+  .nota2 {
+    display: none;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  .icon-arrow {
+    color: #fa7855;
+    bottom: 15px;
+    display: inline-block;
+  }
+  .icon-arrow .fa-arrow-circle-up {
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    color: orange;
+    margin-left: 40%;
   }
 }
 
