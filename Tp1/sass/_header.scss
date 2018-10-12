@@ -42,12 +42,16 @@
 
 .dropdown-container{
   position: relative;
+  .list-item {
+    &:first-child {
+        display: inline-block;
+    }
+}
 
   .dropdown-content{
     display: none;
     position: absolute;
     top: 25px;
-    left:-22px;
     list-style: none;
     padding-left:25px;
     padding-right:25px;
@@ -58,14 +62,10 @@
   }
   &:hover .dropdown-content{
     display: block;
-    color: $gris-menu;
-    text-decoration: none;
   }
 }
 .dropdown-item{
-    width: 100%;
     color: $gris-menu;
-    padding-right: 5px;
     padding: 5px;
     text-decoration: none;
     list-style: none;
@@ -129,14 +129,16 @@
 
     .dropdown-container{
     position: relative;
-    &:first-child{
-        display: block;
+    .list-item {
+        &:first-child{
+            display: block;
+        }
     }
+
     .dropdown-content{
         display: none;
         position: absolute;
         top: 100%;
-        left:-35px;
         list-style: none;
         background-color: $naranja;
         text-align: center;
@@ -152,7 +154,6 @@
     }
 
     .dropdown-item{
-        width: 100%;
         color: white;
         text-decoration: none;
         list-style-type: none;
