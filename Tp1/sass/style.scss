@@ -3,19 +3,100 @@ $gris: #808080; //gris claro
 $fuente: 'IBM Plex Mono', monospace; //fuente section
 $rosa: #f29fc5; // rosa botón
 
-.video{
-    p{
-    margin-left: 5%;
-    font-family: $fuente;
-    color: $gris-menu;
-    font-size: 10px;
-    margin-bottom: 5%;
-   }
+.container{
+    display: flex;
+    justify-content: center
+ }
+ 
+ 
+ .images {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-left: 20px;
+ }
+ 
+ .images img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+ 
+ }
+ 
+ .images .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+ }
+ 
+ .images .btn:hover {
+    background-color: #fa7855;
+    color: black;
+ }
+ 
+.padre {
+    width: 90%;
+    margin: auto;
+    display: flex;
 }
-iframe{
+
+.video {
     width: 60%;
-    height: 400px;
-    margin-left: 5%;
+    height: auto;
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    height: auto;
+    font-family: $fuente;
+    margin-left: 2%;
+    div {
+        width: 50%;
+        height: 200px;
+        margin: auto;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .n {
+        text-align: center;
+        font-size: 18px;
+        color: black;
+    }
+    .pink {
+        background-color: $rosa;
+        text-align: center;
+        margin-top: 0%;
+    }
+    p {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+.april {
+    font-family: $fuente;
+    width: 90%;
+    margin: auto;
+    font-size: 10px;
 }
 
 .linea{
@@ -84,6 +165,7 @@ button {
     margin-top: 5%;
 }
 
+
 footer {
     width: 100%;
     height: auto;
@@ -104,5 +186,35 @@ footer {
         width: 90%;
         margin: auto;
         padding: 15px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        display: flex;
+        align-items: center;
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+ 
+    }
+ 
+    .images {
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+ 
+    .btn {
+        top: 40%;
+        left: 25%;
+    }
+ 
+    .btn1{
+        top: 40%;
+        left: 0%;
+        transform: none;
+        background: none;
     }
 }

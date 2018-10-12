@@ -1,15 +1,95 @@
-.video p {
-  margin-left: 5%;
-  font-family: "IBM Plex Mono", monospace;
-  color: #666666;
-  font-size: 10px;
-  margin-bottom: 5%;
+.container {
+  display: flex;
+  justify-content: center;
 }
 
-iframe {
+.images {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.images .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 15px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.images .btn:hover {
+  background-color: #fa7855;
+  color: black;
+}
+
+.padre {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.video {
   width: 60%;
+  height: auto;
+}
+.video iframe {
+  width: 100%;
   height: 400px;
-  margin-left: 5%;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  height: auto;
+  font-family: "IBM Plex Mono", monospace;
+  margin-left: 2%;
+}
+.bio div {
+  width: 50%;
+  height: 200px;
+  margin: auto;
+}
+.bio div img {
+  width: 100%;
+  height: auto;
+}
+.bio .n {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.bio .pink {
+  background-color: #f29fc5;
+  text-align: center;
+  margin-top: 0%;
+}
+.bio p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.april {
+  font-family: "IBM Plex Mono", monospace;
+  width: 90%;
+  margin: auto;
+  font-size: 10px;
 }
 
 .linea {
@@ -103,6 +183,34 @@ footer .line {
   width: 90%;
   margin: auto;
   padding: 15px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .images {
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .btn {
+    top: 40%;
+    left: 25%;
+  }
+
+  .btn1 {
+    top: 40%;
+    left: 0%;
+    transform: none;
+    background: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
